@@ -10,8 +10,20 @@
 
       <p>Response:</p>
 
-      <p>{{$response}}</p>
+      @if (isset($response['error']))
 
+        <p>{{ $response['error'] }}</p>
+      
+      @else
+
+        @foreach ($response as $k => $v)
+
+          <p>{{ $k }} - {{ $v }}</p>
+
+        @endforeach
+
+      @endif
+      
     </div>
     
   </div>

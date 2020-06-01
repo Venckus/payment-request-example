@@ -22,3 +22,5 @@ Route::post('/cart', 'ShopController@cart')->name('cart');
 Route::post('/credentials', 'ShopController@credentials')->name('credentials');
 
 Route::post('/process', 'ShopController@process')->name('process');
+
+Route::post('/result', 'ShopController@result')->name('result');

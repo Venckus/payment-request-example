@@ -17,6 +17,7 @@ return [
     'cardinity' => [
         'key' => env('CONSUMER_KEY'),
         'secret' => env('CONSUMER_SECRET'),
+        'url' => env('PUBLIC_URL'),
     ],
 
     'mailgun' => [

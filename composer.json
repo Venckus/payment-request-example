@@ -11,7 +11,7 @@
         "php": "^7.2",
         "cardinity/cardinity-sdk-php": "^2.1",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "6.2.*",
+        "laravel/framework": "6.20.*",
         "laravel/tinker": "^2.0",
         "predis/predis": "^1.1"
     },
